@@ -7,7 +7,7 @@ const dbConnect = require("./database/connect")
 /* Klasický get. Má dva argumenty. Routy (nyní domonská stránka /) a callback.
 Request říká, že nám uživatel něco posílá, třeba JSON. Response je, co vrátíme uživateli.*/
 app.get("/", (req, res) => {
-   res.send('Stále na hlavní straně.')
+   res.send('Hlavní strana serveru.')
 })
 
 /*Start serveru*/
